@@ -14,6 +14,6 @@
   modules = import ./modules; # NixOS modules
   overlays = import ./overlays; # nixpkgs overlays
 
-  flake8_json = pkgs.callPackage ./pkgs/flake8_json { };
-  edulint = pkgs.callPackage ./pkgs/edulint { };
+  flake8_json = pkgs.python3Packages.callPackage ./pkgs/flake8_json { };
+  edulint = pkgs.python3Packages.callPackage ./pkgs/edulint { };
 }
