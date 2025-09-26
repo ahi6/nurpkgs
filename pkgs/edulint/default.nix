@@ -48,7 +48,8 @@ buildPythonPackage rec {
 
   meta = {
     description = "Python linter aimed at helping novice programmers improve their coding style";
-    homepage = "https://pypi.org/project/flake8-json";
+    homepage = "https://github.com/GiraffeReversed/edulint";
     license = lib.licenses.gpl3Only;
+    mainProgram = "edulint";
   };
 }
