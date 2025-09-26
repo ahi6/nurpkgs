@@ -34,7 +34,6 @@ buildPythonPackage rec {
   ];
   dependencies = [
     flake8
-    # (callPackage ../flake8_json.nix {})
     flake8_json
     pylint
     dataclasses-json
